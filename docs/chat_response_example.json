@@ -1,0 +1,27 @@
+{
+  "message": "Olá! Aqui está um exemplo de resposta com código e um arquivo.",
+  "codeBlocks": [
+    {
+      "code": "print(\"Este é um exemplo de código Python\")\ndef saudacao(nome):\n    return f\"Olá, {nome}!\"",
+      "language": "python",
+      "filename": "exemplo.py"
+    },
+    {
+      "code": "function greet(name) {\n  console.log(`Hello, ${name}!`);\n}",
+      "language": "javascript"
+    }
+  ],
+  "files": [
+    {
+      "filename": "documento.txt",
+      "content": "Conteúdo simulado do arquivo (o frontend buscará o conteúdo real em /download/documento.txt)",
+      "language": "text"
+    },
+    {
+      "filename": "dados.csv",
+      "content": "",
+      "language": "csv"
+    }
+  ],
+  "isStreaming": false
+} 
